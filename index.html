@@ -1,0 +1,5 @@
+<script>
+  const url = new URL(location.href);
+  const echostr = url.searchParams.get('echostr') || '';
+  document.write(echostr);
+</script>
